@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@types/webextension-polyfill": "^0.10.5",
+    "web-ext": "^7.8.0",
+    "webextension-polyfill": "^0.10.0"
+  },
+  "private": true,
+  "scripts": {
+    "lint": "web-ext lint -s ./xpi",
+    "run": "web-ext run -s ./xpi --devtools"
+  }
+}

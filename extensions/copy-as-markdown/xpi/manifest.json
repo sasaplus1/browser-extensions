@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/webextension",
+  "manifest_version": 3,
+  "name": "copy as markdown",
+  "version": "0.1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "copy-as-markdown@sasaplus1.com"
+    }
+  }
+}
