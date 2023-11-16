@@ -2,7 +2,8 @@ const typescriptExtends = [
   'eslint:recommended',
   'plugin:@typescript-eslint/eslint-recommended',
   'plugin:@typescript-eslint/recommended',
-  'preact',
+  'plugin:react/recommended',
+  'plugin:react-hooks/recommended',
   'prettier'
 ];
 
@@ -31,6 +32,10 @@ overrides.push({
   rules: {
     ...tsdocRules
   }
+});
+
+overrides.push({
+  files: ['./.commitlintrc.cjs']
 });
 
 config.env = {

@@ -1,12 +1,3 @@
-/*
-eslint
-node/no-unpublished-require: [
-  'error', {
-    allowModules: ['@commitlint/config-conventional']
-  }
-]
-*/
-
 const { rules } = require('@commitlint/config-conventional');
 
 const [level, applicable] = rules['subject-case'];
